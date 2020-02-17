@@ -8,9 +8,10 @@ import MultiElementos from './componentes/MultiElementos'
 const elemento = document.getElementById('root')
 ReactDom.render(
     <div>
-        <MultiElementos/>
+        <MultiElementos/>        
         {/* <CompA />
-        <CompB />
-        <PrimeiroComponente valor="Bom dia" /> */}
+        <CompB />*/}
+
+        {/*<PrimeiroComponente valor="Bom dia" /> */}
     </div>
     , elemento)
