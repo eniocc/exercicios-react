@@ -11,8 +11,8 @@ const elemento = document.getElementById('root')
 ReactDom.render(
     <div>
         <Familia sobrenome="Pereira">
-            <Membro nome="André" sobrenome="Pereira"/> 
-            {/* <Membro nome="Mariana" sobrenome="Pereira"/>              */}
+            <Membro nome="André"/> 
+            <Membro nome="Mariana" />
         </Familia>
 
         {/* <FamiliaSilva sobrenome="Silva"/> */}
